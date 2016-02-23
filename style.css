@@ -1,0 +1,60 @@
+html {
+  font-family: helvetica;
+}
+
+.buttonContainer {
+  width: 20%;
+  margin: auto;
+  display: inline-block;
+  float: left;
+  position: relative;
+  top: 100px;
+  left: 25px
+}
+
+.btn {
+  background-color: lightgreen;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px 0;
+  width: 90%;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+
+.btn:hover {
+  color: black;
+}
+
+.textBox {
+  width: 95%
+}
+
+.main {
+  width: 50%;
+  margin: auto;
+  display: inline-block;
+  float: left;
+}
+
+.quote {
+  margin: 25px auto;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #bebebe;
+  width: 60%;
+  min-height: 75px;
+  position: relative;
+}
+
+.author {
+  font-style: italic;
+  float: right;
+  position: absolute;
+  right: 20px;
+  bottom: 10px;
+}
